@@ -1,0 +1,667 @@
+html {
+  height: 100%
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  padding: 10px;
+  margin: 10px;
+}
+body {
+  font-family: "fira-sans-2", sans-serif;
+}
+h2 {
+  font-family: "fira-sans", sans-serif;
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f9b318;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #ff6200;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.marble {
+  display: flex;
+  width: 100%;
+  margin-right: -150px;
+  height: 650px;
+  opacity: .2;
+}
+.commissionheader {
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  margin-top: -450px;
+  font-family: "fira-sans", sans-serif;
+  font-size: 40px;
+}
+.commissionstag {
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  margin-top: -30px;
+  font-family: "fira-sans", sans-serif;
+  font-size: 30px;
+}
+.commissionstag2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  font-family: "fira-sans-2", sans-serif;
+  font-size: 25px;
+}
+.commissionsp {
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  padding-right: 50px;
+  font-family: "fira-sans", sans-serif;
+  font-size: 24px;
+}
+.morecontact {
+  display: flex;
+  justify-content: center;
+  padding-left: 110px;
+  padding-right: 50px;
+  font-family: "fira-sans-2", sans-serif;
+  font-size: 20px;
+}
+.commissionsrectangle {
+  margin-left: 50px;
+}
+.KendrickP {
+  font-family: "congenial-light", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  justify-content: center;
+  padding-left: 250px;
+}
+.KendrickCite {
+  font-family: "congenial-light", sans-serif;
+  font-weight: 400;
+  justify-content:center;
+  padding-left: 275px;
+  padding-bottom: 100px;
+}
+.biotitle {
+  display: block;
+  justify-content: center;
+  padding-left: 100px;
+  padding-bottom: 10px;
+  margin-top: 90px;
+  margin-bottom: -30px;
+  font-family: "fira-sans", sans-serif;
+  font-size: 20px;
+}
+.blocktext1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 570px;
+  height: 400px;
+  width: 50%;
+  font-size: 20px;
+}
+h1 {
+    font-family:"fira-sans", sans-serif;
+    color: #f9b318;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.shippingprompt1 {
+  padding-left: 30px;
+}
+.shippingprompt{
+  padding-left: 175px;
+}
+h3 {
+  font-family:"fira-sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.contactprompt3 {
+  padding-left: 90px;
+}
+h4 {
+  font-family:"fira-sans-2", sans-serif;
+  font-size: 14px;
+}
+input,
+textarea {
+  display: flex;
+  border: 1px solid #f9b318;
+  width: 400px;
+  margin-bottom: 10px;
+  margin-left: 450px;
+}
+input {
+  height: 20px;
+}
+textarea {
+  height: 100px;
+}
+label {
+  display: flex;
+  margin-left: 450px;
+  font-family: "fira-sans", sans-serif;
+}
+button {
+  background-color: #ff6200;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  justify-content: flex-end;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.submit {
+  margin-left: 450px;
+  background-color: #f9b318;
+}
+.contactprompt1 {
+  padding-left: 125px;
+}
+.contactprompt2 {
+  padding-left: 450px;
+  top: 100px;
+}
+.instagramlink {
+  display: flex;
+  margin-left: 675px;
+  margin-bottom: 25px;
+  top: 1000px;
+  font-size: 18px;
+}
+.instagramactive {
+  margin-left: 450px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  width: 20px;
+}
+.instagrampic {
+  margin-left: 325px;
+  display: block;
+  justify-content: center;
+  padding-bottom: 25px;
+  width: 60px;
+}
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -30px; /* must be the same height as footer */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+hr {
+  width: 90%;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  border: 0 none;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-left: 20px;
+  color: #f9b318;
+}
+.Suhmer-gif {
+  float: left;
+  margin-top: 40px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  width: 40%;
+  height: 25%;
+}
+.header {
+  display: inline-block;
+  align-self: center;
+  padding-left: 20px;
+}
+.SITLOGO {
+display: flex;
+width: 15%;
+height: 10%;
+position: absolute;
+padding-left: 570px;
+padding-bottom: 10px;
+}
+.banner {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 60px;
+}
+.shopbutton {
+  background-color: #ff6200;
+  border: 2px solid #000000;
+  font-family: "fira-sans", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  left: 600px;
+  bottom: 100px;
+  right: 450px;
+  padding: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-container {
+  text-align: center;
+  padding: 5px 0 30px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-row: 1 / 2;
+}
+.DirectorX-Description {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  top: 400px;
+  height: 400px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 24px;
+}
+.DirectorX-Description2 {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  top: -135px;
+  height: 50px;
+  width: 50%;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.DirectorX-Product {
+  display:flex;
+  float: left;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  width: 40%;
+  height: 50%;
+}
+.DirectorX-Video {
+  display:flex;
+  margin-left: 190px;
+  width: 800px;
+  height: 600px;
+  top: 300px;
+}
+.Flamingo-Description {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  top: 400px;
+  height: 400px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 24px;
+}
+.Flamingo-Description2 {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  bottom: 60px;
+  height: 50px;
+  width: 50%;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Flamingo-Product {
+  display:flex;
+  float: left;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  width: 40%;
+  height: 50%;
+}
+.Flamingo-Video {
+  display:flex;
+  margin-left: 200px;
+  width: 800px;
+  height: 600px;
+  top: 300px;
+}
+.flamingo-shop {
+  height: 300px;
+}
+.Jessie-Description {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  top: 400px;
+  height: 400px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 24px;
+}
+.Jessie-Description2 {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  top: -135px;
+  height: 50px;
+  width: 50%;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Jessie-Product {
+  display:flex;
+  float: left;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  width: 40%;
+  height: 50%;
+}
+.Jessie-Video {
+  display:flex;
+  margin-left: 190px;
+  width: 800px;
+  height: 600px;
+  top: 300px;
+}
+.Porsche-Description {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  bottom: -120px;
+  height: 400px;
+  width: 50%;
+  font-size: 24px;
+}
+.Porsche-Description2 {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  padding-bottom: 60px;
+  top: -30px;
+  height: 50px;
+  width: 50%;
+  font-size: 18px;
+}
+.Porsche-Product {
+  display:flex;
+  float: left;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  width: 40%;
+  height: 25%;
+}
+.Porsche-Video {
+  display:flex;
+  margin-left: 210px;
+  width: 800px;
+  height: 600px;
+  top: 300px;
+}
+.porsche-shop {
+  height: 300px;
+}
+.Rupaul-Description {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  top: 400px;
+  height: 400px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 24px;
+}
+.Rupaul-Description2 {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  top: -135px;
+  height: 50px;
+  width: 50%;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Rupaul-Product {
+  display:flex;
+  float: left;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  width: 40%;
+  height: 50%;
+}
+.Rupaul-Video {
+  display:flex;
+  margin-left: 190px;
+  width: 800px;
+  height: 600px;
+  top: 300px;
+}
+.Slash-Description {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  top: 400px;
+  height: 400px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 24px;
+}
+.Slash-Description2 {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 525px;
+  top: -135px;
+  height: 50px;
+  width: 50%;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Slash-Product {
+  display:flex;
+  float: left;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  width: 40%;
+  height: 50%;
+}
+.Slash-Video {
+  display:flex;
+  margin-left: 190px;
+  width: 800px;
+  height: 600px;
+  top: 300px;
+}
+.videocaption {
+  display: flex;
+  justify-content: center;
+  bottom: 900px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.videocaption2 {
+  display: block;
+  justify-content: center;
+  margin-left: 240px;
+  margin-top: -20px;
+  top: 80px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.porschevideocaption2 {
+  display: block;
+  justify-content: center;
+  margin-left: 240px;
+  margin-top: -20px;
+  top: 80px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+@media screen and (max-height: 450px) {
+  .Flamingo-Video {width: 20% height: 20%;}
+  .DirectorX-Video {width: 20% height: 20%;}
+  .Porsche-Video {width: 20% height: 20%;}
+  .Jessie-Video {width: 20% height: 20%;}
+  .Slash-Video {width: 20% height: 20%;}
+  .Rupaul-Video {width: 20% height: 20%;}
+  .sidenav a {font-size: 18px;}
+}
+.producttitle {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  padding-left: 50px;
+}
+.price {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  padding-left: 535px;
+  height: 400px;
+  width: 50%;
+  font-family: "fira-sans", sans-serif;
+  font-size: 20px;
+  top: 275px;
+}
+.porscheprice {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  padding-left: 535px;
+  height: 400px;
+  width: 50%;
+  font-family: "fira-sans", sans-serif;
+  font-size: 20px;
+  top: 250px;
+}
+.cartbutton2{
+  border: none;
+  outline: 0;
+  padding: 10px;
+  margin-left: 525px;
+  margin-top: -400px;
+  margin-bottom: 20px;
+  background-color: #f9b318;
+  text-align: center;
+  cursor: pointer;
+  width: 40;
+  font-size: 18px;
+}
+.cartbutton3{
+  border: none;
+  outline: 0;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: #f9b318;
+  text-align: center;
+  cursor: pointer;
+  width: 40;
+  font-size: 18px;
+}
+.cartbutton4{
+  border: none;
+  outline: 0;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  background-color: #f9b318;
+  text-align: center;
+  cursor: pointer;
+  width: 40;
+  font-size: 18px;
+}
+.porschebutton2 {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  margin-left: 525px;
+  margin-top: -380px;
+  margin-bottom: 20px;
+  background-color: #f9b318;
+  text-align: center;
+  cursor: pointer;
+  width: 40;
+  font-size: 18px;
+}
